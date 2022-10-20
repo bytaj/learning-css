@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    background: steelblue;
+    width: 400px;
+    height: 450px;
+    color: white;
+    padding: 25px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 1%;
+}
+
+.card-image {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+.card-title {
+    padding-bottom: inherit;
+}
+
+.card-description {
+    font-style: italic;
+}
