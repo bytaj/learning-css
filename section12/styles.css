@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.article {
+    margin: 20px auto;
+    background: #b2b2b2;
+    padding: 40px;
+    width: 600px;
+    box-shadow: 0 0 6px -3px rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+}
+
+.article-title {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.article-paragraph {
+    word-spacing: 4px;
+    margin-bottom: 20px;
+    font-style: oblique;
+    line-height: 50px;
+    font-weight: 300;
+}
+
+.article-link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 100;
+}
