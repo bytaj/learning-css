@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 600px;
+    height: 500px;
+    border: 1px solid #000000;
+    margin: 20px auto;
+}
+
+.item {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    background: tomato;
+}
+
+.static {
+    background: steelblue;
+    position: static;
+}
+
+.relative {
+    background: darkblue;
+    position: relative;
+}
+
+.absolute {
+    background: darkviolet;
+    position: absolute;
+}
+
+.fixed {
+    background: darkgreen;
+    position: fixed;
+    top: 250px;
+}
+

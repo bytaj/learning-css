@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.scroll {
+    height: 1000px;
+    background: tomato;
+    z-index: 10;
+    position: relative;
+}
+
+.menu {
+    background: steelblue;
+    height: 80px;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    line-height: 80px;
+    margin-right: 30px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: #8936f3;
+}
