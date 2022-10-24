@@ -1,0 +1,79 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link {
+    background: steelblue;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    height: 100px;
+    width: 300px;
+    display: block;
+    position: relative;
+    margin: 40px auto;
+    padding-top: 40px;
+}
+
+p::selection {
+    background: hotpink;
+    color: white;
+}
+
+div {
+    background-color: fuchsia;
+    width: 500px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 0.1px;
+}
+
+div::before {
+    content: "This is a div";
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.link:hover {
+    background: #000000;
+}
+
+.link:active {
+    background: #8936f3;
+}
+
+#firstParagraph:target {
+    background: #8936f3;
+    color: white;
+}
+
+#secondParagraph:target {
+    background: hotpink;
+    color: white;
+}
+
+input {
+    margin: 80px;
+    padding: 30px 5px;
+    display: block;
+}
+
+input:focus {
+    outline-color: cyan;
+}
+
+p:nth-of-type(2) {
+    color: #b2b2b2;
+}

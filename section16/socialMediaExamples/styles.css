@@ -1,0 +1,51 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --colorYoutube: #cd201f;
+    --colorFacebook: #3b5998;
+    --colorTwitter: #55acee;
+    --colorLinkedin: #0077b5;
+    --box-shadow: 0 0 6px 1px;
+    --text: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    margin: 30px auto;
+    text-align: var(--text);
+}
+
+[class^="fa-brands fa-"] {
+
+    width: 100px;
+    font-size: 40px;
+    color: white;
+    box-shadow: var(--box-shadow) rgba(0, 0, 0, 0.5);
+    text-align: var(--text);
+    padding: 15px 0;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+[class^="fa-brands fa-"]:nth-child(1) {
+    background-color: var(--colorFacebook);
+}
+
+[class^="fa-brands fa-"]:nth-child(2) {
+    background-color: var(--colorTwitter);
+}
+
+[class^="fa-brands fa-"]:nth-child(3) {
+    background-color: var(--colorYoutube);
+}
+
+[class^="fa-brands fa-"]:nth-child(4) {
+    background-color: var(--colorLinkedin);
+}
