@@ -1,0 +1,56 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', Arial, sans-serif;
+    background-image: linear-gradient(to top left, steelblue, hotpink);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+form {
+    width: 50%;
+    margin: 5% auto;
+    background-color: white;
+    height: 30%;
+    border-radius: 10px;
+    padding: 60px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+input {
+    display: inline-block;
+    width: 70%;
+    margin-top: 40px;
+    padding: 10px 0;
+    border: none;
+    font-size: 20px;
+    border-bottom: 1px solid #b490ca;
+}
+
+input[type="submit"] {
+    background-image: linear-gradient(to top left, steelblue, hotpink);
+    border-radius: 10px;
+    margin-top: 100px;
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+@media (max-width: 600px) {
+    form {
+        width: 60%;
+    }
+}
+
+@media (max-width: 225px) {
+    form {
+        width: 90%;
+    }
+}
