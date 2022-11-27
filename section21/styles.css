@@ -1,0 +1,33 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+.container{
+    width: 620px;
+    height: 620px;
+    margin: 20px auto;
+    border: 10px solid #000;
+}
+
+.item {
+    transition: .3s;
+    background: steelblue;
+    width: 300px;
+    height: 100px;
+    color: #fff;
+    margin: 40px;
+    /*transform: translate(20px, 40px);*/
+    /*transform: scale(1.2);*/
+    /*transform: rotate(45deg);*/
+    /*transform: skew(45deg);*/
+}
+
+.item:hover {
+    transform: scale(1.5) skew(45deg);
+}
